@@ -4,10 +4,15 @@ import './nav.css'
 function nav() {
   return (
     <div className='nav'>
+
         <div className='btn'>
-        <button>Home</button>
-        <button>About</button>
-        <button>Contact me</button>
+
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
       </div>
       
       
